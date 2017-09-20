@@ -1,0 +1,8 @@
+package Message;  
+message Login {
+    required string userName = 1;
+    required string password = 2;
+    optional int32 sex = 3;
+    required bool isFirstLogin = 4;
+    repeated string param = 5;
+}
